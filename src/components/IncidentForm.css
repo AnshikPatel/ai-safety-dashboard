@@ -1,0 +1,100 @@
+/* Form Container */
+.incident-form-container {
+    max-width: 700px; /* Limit the maximum width */
+    width: 100%; /* Ensure it takes up the full available width up to max-width */
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #6ea6ea;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease;
+    box-sizing: border-box; /* Ensure padding doesn't overflow */
+  }
+  
+  .incident-form-container:hover {
+    box-shadow: 0 88=px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .incident-form h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  /* Form Layout */
+  .incident-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-group label {
+    font-size: 1.2rem;
+    color: #eedada;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    padding: 14px;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus,
+  .form-group select:focus {
+    border-color: #007BFF;
+    background-color: #e7f3ff;
+  }
+  
+  .form-group input {
+    height: 45px;
+  }
+  
+  .form-group textarea {
+    min-height: 150px;
+    resize: none;
+  }
+  
+  .submit-button {
+    padding: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 600;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .submit-button:focus {
+    outline: none;
+  }
+  
+  .submit-button:active {
+    transform: scale(0.98);
+  }
+  
